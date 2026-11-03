@@ -10,7 +10,7 @@
 
 <p align="center">
   <b>Building resilient event-driven backends, fintech rails, and low-latency web systems.</b><br/>
-  Passionate about clean systems design, decoupled architectures, and production-grade developer standards.
+  Passionate about clean systems design, decoupled architectures, and production-grade engineering standards.
 </p>
 
 </div>
@@ -19,11 +19,11 @@
 
 ### 🏛️ Executive Summary
 
-I am a Software Engineer focused on designing and shipping **scalable event-driven architectures**, **mission-critical financial integrations**, and **real-time web applications**. My engineering approach emphasizes:
+I am a Software Engineer focused on architecting and shipping **scalable event-driven architectures**, **mission-critical financial integrations**, and **real-time web applications**. My engineering approach emphasizes:
 
-- **Resilient Distributed Flows:** Decoupling producers and consumers using asynchronous message queues (RabbitMQ, event streams) to withstand traffic spikes and guarantee delivery.
+- **Resilient Distributed Flows:** Decoupling producers and consumers using asynchronous message queues (RabbitMQ, event streams) to withstand traffic spikes and guarantee delivery under load.
 - **Fintech & Payment Reliability:** Architecting fail-safe webhook ingestion, idempotency controls, and automated OAuth token rotation across high-throughput payment rails (e.g., Safaricom Daraja / M-Pesa).
-- **End-to-End Type Safety & Observability:** Enforcing strict TypeScript/Python contracts, automated lint/commit gating (Husky, lint-staged), and real-time telemetry dashboards.
+- **End-to-End Type Safety & Observability:** Enforcing strict TypeScript/Python contracts, automated lint/commit gating (Husky, lint-staged), and real-time operational telemetry.
 
 ---
 
@@ -39,7 +39,7 @@ I am a Software Engineer focused on designing and shipping **scalable event-driv
 #### 1. [Real-Time Fraud Detection Engine](https://github.com/Mutugi-dev/fraud-detection-system)
 > **Domain:** Distributed Stream Processing • Anomaly Detection • Event-Driven Microservices
 
-* **The Problem:** Traditional batch fraud analysis introduces unacceptable latency, exposing payment processors to consecutive unauthorized transactions before detection occurs.
+* **The Problem:** Traditional batch fraud analysis introduces latency windows that expose payment processors to consecutive unauthorized transactions before detection triggers.
 * **The Solution:** Engineered a decoupled, event-driven streaming pipeline capable of scoring transactions at sub-second latency.
 * **Architecture & Highlights:**
   - Decoupled ingestion layer producing synthetic high-velocity transaction streams.
@@ -53,7 +53,7 @@ I am a Software Engineer focused on designing and shipping **scalable event-driv
 #### 2. [xStream Markets & Stretch Protocol](https://github.com/Mutugi-dev/xStream_crypto)
 > **Domain:** DeFi Infrastructure • Tokenized Real-World Assets (RWA) • Structured Yield
 
-* **The Problem:** Tokenized equities lock yield and capital appreciation into a single asset, forcing yield investors to take market risk and active traders to purchase unwanted dividend rights.
+* **The Problem:** Tokenized equities lock yield and capital appreciation into a single instrument, forcing yield investors to absorb volatility risk and active traders to purchase unwanted dividend rights.
 * **The Solution:** Deployed smart contract infrastructure that splits tokenized equities into independent dividend (`dx`) and principal (`px`) tokens.
 * **Architecture & Highlights:**
   - **Live on Ink L2 Mainnet** (Chain ID `57073`). Awarded **2nd Place** in STRC competition ([stretch-leveraged-yield](https://github.com/Mutugi-dev/xstocks-strc_2nd)).
@@ -66,8 +66,8 @@ I am a Software Engineer focused on designing and shipping **scalable event-driv
 #### 3. [M-Pesa STK Real-Time Settlement Engine](https://github.com/Mutugi-dev/mpesa-stk-push-system)
 > **Domain:** Fintech Rails • Asynchronous Webhooks • Real-Time Duplex Communication
 
-* **The Problem:** Mobile payment gateways frequently drop transactions or cause poor UX due to brittle polling mechanisms, stale OAuth tokens, and unhandled network timeouts.
-* **The Solution:** A production-hardened settlement microservice handling Daraja STK Push callbacks with zero-polling instant user notification.
+* **The Problem:** Mobile payment gateways frequently drop transactions or degrade UX due to client polling bottlenecks, stale OAuth tokens, and unhandled network timeouts.
+* **The Solution:** A production-hardened settlement microservice handling Daraja STK Push callbacks with zero-polling, instant UI state updates.
 * **Architecture & Highlights:**
   - Automated preemptive OAuth 2.0 token rotation with memory caching to eliminate token expiry latencies.
   - Idempotent webhook receiver with strict payload validation and phone number sanitization.
@@ -135,5 +135,3 @@ Whether you want to discuss distributed architectures, fintech integrations, or 
 - 💼 **LinkedIn:** [linkedin.com/in/derrick-mutugi-54118027a](https://www.linkedin.com/in/derrick-mutugi-54118027a/)
 - 📧 **Direct Email:** [mutugimaina1@gmail.com](mailto:mutugimaina1@gmail.com)
 - 🐙 **GitHub:** [@Mutugi-dev](https://github.com/Mutugi-dev)
-
-</div>
