@@ -2,7 +2,7 @@
 
 # Derrick Mutugi
 ### **Systems & Full-Stack Software Engineer**
-*Nairobi, Kenya • Available for Global Remote & High-Impact Engineering Roles*
+*Nairobi, Kenya | Available for Global Remote & High-Impact Engineering Roles*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/derrick-mutugi-54118027a/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:mutugimaina1@gmail.com)
